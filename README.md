@@ -11,6 +11,7 @@ A pixel on the grid has four different states it can be in.
 4. _ASH_
 
 These different states determine how the fire will affect the pixel in the forest fire grid.\
+\
 **_WHITE_** - There is no _TREE_ present in the pixel on the grid and therefore _FIRE_ cannot spread here\
 **_TREE_** - A _FIRE_ can spread here if an adjacent pixel is on _FIRE_\
 **_FIRE_** - If the adjacent pixel is on _FIRE_, this will convert a _TREE_ to _FIRE_. The _TREE_ that got struck by lightning at the start to initiate the forest fire will start out as _FIRE_\
